@@ -1,0 +1,5 @@
+sudo apt-get install zsh
+zsh --version
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+source .zshrc
+echo "Edit the ZSH_THEME Variable in ~/.zshrc to your preferred zsh-Theme. Themes can be found on https://github.com/ohmyzsh/ohmyzsh/wiki/Themes"
